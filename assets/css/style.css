@@ -167,6 +167,7 @@ body { background: var(--smoky-black); }
 
 .sidebar,
 article {
+	width:350px;
   background: var(--eerie-black-2);
   border: 1px solid var(--jet);
   border-radius: 20px;
