@@ -324,7 +324,7 @@ main {
 .sidebar.active { max-height: 405px; }
 
 .sidebar-info {
-	width: 800px;
+	
   position: relative;
   display: flex;
   justify-content: flex-start;
