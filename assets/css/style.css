@@ -167,7 +167,7 @@ body { background: var(--smoky-black); }
 
 .sidebar,
 article {
-	width:350px;
+	width:400px;
   background: var(--eerie-black-2);
   border: 1px solid var(--jet);
   border-radius: 20px;
@@ -316,7 +316,7 @@ main {
 \*-----------------------------------*/
 
 .sidebar {
-	width:350px;
+	width: 400px;
   margin-bottom: 15px;
   max-height: 112px;
   overflow: hidden;
@@ -1292,7 +1292,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar, article {
-    width: 520px;
+    width: 600px;
     margin-inline: auto;
     padding: 30px;
   }
@@ -1827,7 +1827,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar {
-    width: 350px;
+    width: 400px;
     position: sticky;
     top: 60px;
     max-height: max-content;
