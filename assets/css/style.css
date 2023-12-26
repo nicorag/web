@@ -334,10 +334,22 @@ main {
   gap: 15px;
 }
 
-.avatar-box {
+/* .avatar-box {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
+} */
+.avatar-box {
+  width: 150px; /* Ajusta el ancho y alto según tus preferencias */
+  height: 150px;
+  border-radius: 50%; /* Aplica un borde circular */
+  overflow: hidden; /* Oculta cualquier parte de la imagen que esté fuera del círculo */
 }
+
+.avatar-box img {
+  width: 100%;
+  height: auto;
+}
+/*  */
 
 .info-content .name {
   color: var(--white-2);
