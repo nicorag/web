@@ -1877,7 +1877,17 @@ textarea.form-input::-webkit-resizer { display: none; }
   .social-list { justify-content: center; }
 
 
+.image-box {
+    background-color: #fff; /* Fondo blanco */
+    padding: 20px; /* Espacio alrededor de la imagen */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
 
+.image-box img {
+    max-width: 100%; /* Imagen dentro del recuadro */
+    height: auto;
+}
   /**
 	 * RESUME
 	 */
