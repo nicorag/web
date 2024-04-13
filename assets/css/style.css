@@ -1891,7 +1891,9 @@ textarea.form-input::-webkit-resizer { display: none; }
   /**
 	 * RESUME
 	 */
-
+.timeline-item-title a {
+    color: yellow;
+}
   .timeline-text { max-width: 700px; }
 
 }
