@@ -769,11 +769,9 @@ main {
 \*-----------------------------------*/
 
 .article-title { margin-bottom: 30px; }
-
-
-/**
- * education and experience 
- */
+.sidebar {
+    max-width: 300px; /* Ajusta el valor según tus preferencias */
+}
 
 .timeline { margin-bottom: 30px; }
 
