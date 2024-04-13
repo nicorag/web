@@ -771,6 +771,7 @@ main {
 .article-title { margin-bottom: 30px; }
 .sidebar {
 	max-width: 400px !important;  /* Ajusta el valor según tus preferencias */
+	min-width: 275px !important;
 }
 .sidebar-info,
 .sidebar-info_more {
