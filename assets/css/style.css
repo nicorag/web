@@ -772,7 +772,12 @@ main {
 .sidebar {
 	max-width: 400px !important;  /* Ajusta el valor según tus preferencias */
 }
-
+.sidebar-info,
+.sidebar-info_more {
+  display: block; /* Asegura que los elementos se muestren como bloques */
+  width: auto; /* Establece el ancho automático */
+  min-width: 270px; /* Ajusta el ancho mínimo según sea necesario */
+}
 .timeline { margin-bottom: 30px; }
 
 .timeline .title-wrapper {
