@@ -797,6 +797,10 @@ main {
   background-color: rgba(0, 0, 0, 0.5); /* Puedes ajustar la opacidad según lo desees */
   z-index: 1; /* Asegura que el pseudo-elemento esté detrás de la imagen */
 }
+.avatar-box img {
+  position: relative;
+  z-index: 2; /* Asegura que la imagen esté por encima del fondo */
+}
 .timeline { margin-bottom: 30px; }
 
 .timeline .title-wrapper {
