@@ -780,10 +780,22 @@ main {
   min-width: 270px; /* Ajusta el ancho mínimo según sea necesario */
 }
 .avatar-box {
-  background-color: transparent; /* Hace que el fondo sea transparente */
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden; /* Oculta cualquier parte de la imagen que se extienda más allá del contenedor */
+}
+
+.avatar-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Puedes ajustar la opacidad según lo desees */
+  z-index: 1; /* Asegura que el pseudo-elemento esté detrás de la imagen */
 }
 .timeline { margin-bottom: 30px; }
 
