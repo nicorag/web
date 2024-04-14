@@ -777,7 +777,7 @@ main {
 .sidebar-info_more {
   display: block; /* Asegura que los elementos se muestren como bloques */
   width: auto; /* Establece el ancho automático */
-  min-width: 270px; /* Ajusta el ancho mínimo según sea necesario */
+  min-width: 300px; /* Ajusta el ancho mínimo según sea necesario */
 }
 .avatar-box {
   position: relative;
