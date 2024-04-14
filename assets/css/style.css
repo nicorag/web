@@ -771,13 +771,19 @@ main {
 .article-title { margin-bottom: 30px; }
 .sidebar {
 	max-width: 400px !important;  /* Ajusta el valor según tus preferencias */
-	min-width: 300px !important;
+	min-width: 350px !important;
 }
 .sidebar-info,
 .sidebar-info_more {
   display: block; /* Asegura que los elementos se muestren como bloques */
   width: auto; /* Establece el ancho automático */
   min-width: 270px; /* Ajusta el ancho mínimo según sea necesario */
+}
+.avatar-box {
+  background-color: transparent; /* Hace que el fondo sea transparente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .timeline { margin-bottom: 30px; }
 
